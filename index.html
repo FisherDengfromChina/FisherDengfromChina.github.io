@@ -13,11 +13,11 @@
 
 <body>
 
-<canvas id="myCanvas_map" width="500" height="500"></canvas>
+<div id="my_map" width="500" height="500"></div>
 <script>
 mapboxgl.accessToken = 'pk.eyJ1IjoiZmlzaGVyZGVuZ29mbmp1c3QiLCJhIjoiY2pqajk3bjZzNjJqajNxcDFieGZsd3JxcSJ9.NoQq-t5_DyMOK7BQeoFQrw';
 var map = new mapboxgl.Map({
-    container: 'myCanvas_map', // container id
+    container: 'my_map', // container id
     style: 'mapbox://styles/mapbox/streets-v9', // stylesheet location
     center: [-74.50, 40], // starting position [lng, lat]
     zoom: 9 // starting zoom
